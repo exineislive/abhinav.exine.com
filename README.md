@@ -1,16 +1,13 @@
-# exine.web.io
-index.html
-Exine
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ExineisLive | YouTube Channel</title>
   <meta name="description" content="Welcome to ExineisLive — official YouTube channel website. Watch, subscribe, and join our Discord!">
   <style>
     body {
-      font-family: "Poppins", Arial, sans-serif;
+      font-family: 'Poppins', Arial, sans-serif;
       margin: 0;
       background: linear-gradient(135deg, #111, #1e1e1e);
       color: white;
@@ -84,3 +81,4 @@ Exine
   </footer>
 </body>
 </html>
+
