@@ -112,11 +112,16 @@
   <canvas id="particles"></canvas>
 
   <div class="content">
-    <!-- 🔥 Replace the src below with your image path -->
+    <!-- 🔥 Replace with your actual logo image -->
     <img src="assets/logo.jpg" alt="ExineisLive Logo" class="logo">
+
     <h1>Welcome to ExineisLive</h1>
     <p>Gaming • Commentary • Live Entertainment</p>
-    <a class="btn" href="https://www.youtube.com/yourchannel" target="_blank">Visit Our Channel</a>
+
+    <!-- ✅ Working YouTube button -->
+    <a class="btn" href="https://www.youtube.com/@ExineIsLive" target="_blank">
+      Visit Our Channel
+    </a>
   </div>
 
   <script>
@@ -130,7 +135,7 @@
       w = canvas.width = window.innerWidth;
       h = canvas.height = window.innerHeight;
       particlesArray = [];
-      const numParticles = Math.floor((w*h) / 12000);
+      const numParticles = Math.floor((w * h) / 12000);
       for (let i = 0; i < numParticles; i++) {
         particlesArray.push({
           x: Math.random() * w,
@@ -149,8 +154,10 @@
         ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
         ctx.fillStyle = '#58a6ff';
         ctx.fill();
+
         p.x += p.speedX;
         p.y += p.speedY;
+
         if (p.x < 0) p.x = w;
         if (p.x > w) p.x = 0;
         if (p.y < 0) p.y = h;
@@ -166,5 +173,4 @@
 
 </body>
 </html>
-
 
