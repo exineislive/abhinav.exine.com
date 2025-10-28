@@ -59,5 +59,17 @@
   </footer>
 </body>
 </html>
+<audio id="prankSound">
+  <source src="sayip.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+  function playSound() {
+    const sound = document.getElementById("prankSound");
+    sound.currentTime = 0; // restart if clicked again
+    sound.play();
+  }
+</script>
+
 
 
