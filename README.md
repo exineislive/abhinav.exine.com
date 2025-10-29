@@ -50,7 +50,7 @@
   <h2>Maniveeran</h2>
   <div class="photo">
     <!-- Replace this filename with the one you upload -->
-    <img src="WhatsApp Image 2025-10-28 at 18.20.21_af1f0ba0.jpg" alt="Devadathan photo">
+    <img s
   </div>
   <div class="tagline">EE website te Nadhan 😎</div>
 
